@@ -395,7 +395,7 @@ def act(
                 max_memory=flags.max_memory,
             )
             envs.append(env)
-        gym_env = GymWrapper(envs)
+        gym_env = GymWrapper(envs, model)
 
         seed = actor_index ^ int.from_bytes(os.urandom(4), byteorder="little")
         torch.manual_seed(seed)
