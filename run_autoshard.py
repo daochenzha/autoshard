@@ -14,11 +14,6 @@ def main():
     # Training settings.
     parser.add_argument("--disable-cost-model", action="store_true",
                         help="Disable perf model as features.")
-    parser.add_argument("--disable-dims", action="store_true")
-    parser.add_argument("--disable-rows", action="store_true")
-    parser.add_argument("--disable-pooling-factors", action="store_true")
-    parser.add_argument("--disable-sizes", action="store_true")
-    parser.add_argument("--disable-bins", action="store_true")
     parser.add_argument("--checkpoint-history", action="store_true")
     parser.add_argument("--checkpoint-history-every", default=2400, type=int)
     parser.add_argument("--disable-checkpoint", action="store_true",
