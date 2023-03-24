@@ -2,6 +2,8 @@
 This is the implementation for the paper [AutoShard: Automated Embedding Table Sharding for Recommender Systems](https://dl.acm.org/doi/abs/10.1145/3534678.3539034). We proposed a reinforcement learning approach for embedding table sharding in distributed recommender systems, which aims to put emebedding tables to multiple GPU devices to achieve a load balance. Please refer the paper for more deteails.
 <img width="800" src="./imgs/overview.png" alt="overview" />
 
+Miscellaneous Resources: Have you heard of data-centric AI? Please check out our [data-centric AI survey](https://arxiv.org/abs/2303.10158) and [awesome data-centric AI resources](https://github.com/daochenzha/data-centric-AI)!
+
 ## Cite this Work
 If you find this project helpful, please cite
 ```bibtex
